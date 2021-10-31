@@ -1,7 +1,7 @@
 ---
 #this is test comment
     - name: Configure Jenkins Playbook
-      hosts: tag_group_rmq
+      hosts: group_tag_rmq
       tasks:
 
         - name: install RMQ
